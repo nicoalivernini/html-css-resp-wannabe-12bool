@@ -6,6 +6,7 @@
 
 #lezioni, #steps, #why {
   text-align: center;
+  padding-bottom: 40px;
 }
 
 #lezioni, #why {
@@ -35,6 +36,17 @@ img {
   height: 150px;
 }
 
-row {
-  margin: 0 auto;
+h1 {
+  padding: 20px;
+}
+
+[class*="col-"] {
+    padding: 10px 0;
+}
+
+@media all and (min-width: 992px) {
+
+  img {
+    height: 200px;
+  }
 }
