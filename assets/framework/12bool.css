@@ -1,5 +1,12 @@
 .container {
   margin: 0 auto;
+  width: 80%;
+}
+
+.container-fluid {
+  margin: 0 auto;
+  width: 100%;
+  padding: 0 10%;
 }
 
 .row:after {
@@ -168,7 +175,7 @@
     width: 100%;
   }
 
-  /* Offset mobile */
+  /* Offset Tablet */
 
   .col-md-offset-1 {
     margin-left: calc(100% / 12);
